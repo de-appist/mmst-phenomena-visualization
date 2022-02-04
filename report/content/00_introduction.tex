@@ -1,0 +1,13 @@
+\section*{Introduction}
+\addcontentsline{toc}{section}{Introduction}
+
+Control room operators most important and hardest job is to outsee and fix unintentional and dangerous events of the system as fast as possible. Many times the problem will be found too late, so that damage is inevitable.
+
+In industrial settings \acp{HMI} serve as a connection between a person and a system. They are used to interact with the machines and optimize industrial processes. The most common roles that interact with industrial \acp{HMI} are operators, system integrators and engineers, particularly control system engineers.\ac{SCADA} systems and \acp{HMI} are closely related, and often referred to in the same context since they are both part of a larger industrial control system, but they each offer different functionalities and opportunities. While \acp{HMI} are focused on visually conveying information to help the user supervise an industrial process, \ac{SCADA} systems have a greater capacity for data collection and control-system operation .\cite{HMIvsSCADA}
+
+Since this project uses both, user controllable inputs and visual elements, an \ac{HMI}-like approach was chosen for the project. In most cases, \acp{HMI} are so designed that it cannot be seen what happens within the system if operators adjust parameters. Due to this many wrong adjustments can be made erroneously. Therefore, it is very important to have an interactive interface to get a good understanding of the current state of the plant which the operator is working on. To make the understanding easier and give a good overview of the \ac{PCS} it is important to provide the user with a visualization of all phenomena happening in it.
+
+This is a student project in the "Mensch-Maschine-Systemtechnik" course, focusing on visualizing phenomena happening in an industrial furnace and notifying the user about dangers that can result from wrong adjustments. Since it is an industrial system, the \ac{HMI} needs to be designed for control room environments. The main goal is to give the user a good understanding of the plant and help him to foresee problems that can happen. That way complications can be avoided before they get dangerous and cause damage to the facility.
+
+The system designed and developed throughout this project resembles an industrial furnace consisting of 3 inputs (feed, air and fuel) and 2 outputs (outlet and combustion products). The stream gets heated by the energy released from the fuel-air combustion. It is a simple model and serves as a concept to show an approach in designing \acp{HMI} that make such a complex process easy to understand and interactive.
+
