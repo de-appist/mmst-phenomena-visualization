@@ -1,0 +1,14 @@
+{
+  "id": "txr9p5prO",
+  "createdAt": "2021-11-23T21:39:51.043Z",
+  "updatedAt": "2022-02-04T07:58:17.987Z",
+  "membersCanInvite": true,
+  "membersCanAutoJoinByDomain": false,
+  "membersCanAutoJoinByOauthProvider": false,
+  "name": "Phenomena Visualization MMST WS2021",
+  "domain": "phenomena-visualization",
+  "photoURL": "https://logo.clearbit.com/mailbox.tu-dresden.de?size=300",
+  "size": 2,
+  "goal": "project-collaboration",
+  "authDomains": ""
+}
